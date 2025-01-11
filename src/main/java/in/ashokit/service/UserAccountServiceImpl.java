@@ -27,12 +27,12 @@ public class UserAccountServiceImpl implements UserAccountService {
 		
 		if(userId == null) {
 		
-			return "Record Saved Successfully ";
+			return "Record Saved Successfully!!";
 		}
 		
 		else {
 		
-			return "Record Updated Successfully";
+			return "Record Updated Successfully !!";
 		}
 	}
 
