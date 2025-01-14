@@ -40,7 +40,9 @@ public class UserAccountServiceImpl implements UserAccountService {
 	@Override
 	public List<UserAccount> getAllUserAccounts() {
 		
-		List<UserAccount> listUsers = userAccRepo.findAll();
+		List<UserAccount> listUsers = userAccRepo.findAll();  
+
+		// Task 101 - findAll method is available in JPA repository
 		
 		return listUsers;
 	}
